@@ -1,4 +1,4 @@
-package rest.entitie;
+package rest.entity;
 
 public class TypeValue {
     public static final String TIPO_TEXT = "TIPO_TEXT";

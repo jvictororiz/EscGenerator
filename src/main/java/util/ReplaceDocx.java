@@ -1,8 +1,7 @@
 package util;
 
-import org.apache.poi.openxml4j.opc.OPCPackage;
 import org.apache.poi.xwpf.usermodel.*;
-import rest.entitie.TypeValue;
+import rest.entity.TypeValue;
 
 import java.io.FileOutputStream;
 import java.io.InputStream;

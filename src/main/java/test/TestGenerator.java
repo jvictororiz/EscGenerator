@@ -2,7 +2,7 @@ package test;
 
 import rest.EscDto;
 import util.ReplaceDocx;
-import rest.entitie.TypeValue;
+import rest.entity.TypeValue;
 
 import java.util.ArrayList;
 import java.util.List;
