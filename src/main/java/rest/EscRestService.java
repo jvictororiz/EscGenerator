@@ -1,18 +1,30 @@
 package rest;
 
 import org.springframework.context.annotation.Scope;
+import org.springframework.http.HttpStatus;
+import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
+import rest.entity.TypeValue;
 import util.ReplaceDocx;
 
+import javax.servlet.http.HttpServletRequest;
 import java.io.*;
+import java.util.ArrayList;
 
 @RestController
-@RequestMapping("/esc/donwload")
+@RequestMapping("/esc")
 @Scope("request")
 public class EscRestService {
 
-    @RequestMapping(value = "/download", method = RequestMethod.GET)
+    @RequestMapping(value = "/version", method = RequestMethod.GET)
+    public ResponseEntity serverVersion(final HttpServletRequest httpServletRequest) {
+        return new ResponseEntity("joao", HttpStatus.OK);
+    }
+
+    @RequestMapping( method = RequestMethod.GET)
     public void downloadFile() throws IOException {
+
+//        ReplaceDocx.donwloadEscCompleted(new ArrayList<TypeValue>());
 
 //        File file = new File("");
 //

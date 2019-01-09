@@ -1,5 +1,3 @@
-package test;
-
 import rest.EscDto;
 import util.ReplaceDocx;
 import rest.entity.TypeValue;
@@ -7,7 +5,7 @@ import rest.entity.TypeValue;
 import java.util.ArrayList;
 import java.util.List;
 
-public class TestGenerator {
+public class TestGeneratorFile {
     public static void main(String[] args) {
         EscDto escDto = new EscDto();
         escDto.setTitle("Vai se fuder");
