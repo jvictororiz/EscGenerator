@@ -3,14 +3,13 @@ package util;
 import org.apache.poi.xwpf.usermodel.*;
 import rest.entity.TypeValue;
 
-import java.io.FileOutputStream;
 import java.io.InputStream;
 import java.util.ArrayList;
 import java.util.List;
 
 public class ReplaceDocx {
 
-    public static void donwloadEscCompleted(List<TypeValue> keys) {
+    public static XWPFDocument donwloadEscCompleted(List<TypeValue> keys) {
         try {
             InputStream resourceAsStream = ReplaceDocx.class.getResourceAsStream("/testeEsc.docx");
             XWPFDocument doc = new XWPFDocument(resourceAsStream);
@@ -19,12 +18,15 @@ public class ReplaceDocx {
 
             replaceTextTypeText(doc, keysText);
             replaceTextTypeTable(doc, keysTable);
+            return doc;
 
 
-            doc.write(new FileOutputStream("C:\\Users\\Administrador\\Desktop\\testeEscConlcuido.docx"));
+//            doc.write(new FileOutputStream("C:\\Users\\Administrador\\Desktop\\testeEscConlcuido.docx"));
         } catch (Exception e) {
             e.printStackTrace();
+            return null;
         }
+
     }
 
     private static List<TypeValue> getListFromKey(List<TypeValue> keys, String key) {
