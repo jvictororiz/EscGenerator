@@ -1,24 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="b8cbee17-3b03-4fe9-9781-9022f846ad77" name="Default Changelist" comment="">
+    <list default="true" id="b8cbee17-3b03-4fe9-9781-9022f846ad77" name="Default Changelist" comment="finalizando troca das key">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/rest/EscDto.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/rest/EscDto.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/rest/EscRestService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/rest/EscRestService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/rest/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/rest/Main.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/util/ReplaceDocx.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/util/ReplaceDocx.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/resources/testeEsc.docx" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/testeEsc.docx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/TestGeneratorFile.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/Spring4MVCFileDownloadExample/WEB-INF/classes/rest/EscDto.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/Spring4MVCFileDownloadExample/WEB-INF/classes/rest/EscDto.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/Spring4MVCFileDownloadExample/WEB-INF/classes/rest/EscRestService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/Spring4MVCFileDownloadExample/WEB-INF/classes/rest/EscRestService.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/Spring4MVCFileDownloadExample/WEB-INF/classes/util/ReplaceDocx.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/Spring4MVCFileDownloadExample/WEB-INF/classes/util/ReplaceDocx.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/rest/EscDto.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/rest/EscDto.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/rest/EscRestService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/rest/EscRestService.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/testeEsc.docx" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/testeEsc.docx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/maven-archiver/pom.properties" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-archiver/pom.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/~$steEsc.docx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/util/ReplaceDocx.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/util/ReplaceDocx.class" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -91,29 +79,29 @@
       <usages-collector id="statistics.file.extensions.open">
         <counts>
           <entry key="class" value="13" />
-          <entry key="java" value="12" />
+          <entry key="java" value="16" />
           <entry key="xml" value="3" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
           <entry key="CLASS" value="13" />
-          <entry key="JAVA" value="12" />
+          <entry key="JAVA" value="16" />
           <entry key="XML" value="3" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="dummy" value="14" />
-          <entry key="java" value="3103" />
-          <entry key="txt" value="60" />
+          <entry key="java" value="3112" />
+          <entry key="txt" value="104" />
           <entry key="xml" value="19" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="3103" />
-          <entry key="PLAIN_TEXT" value="74" />
+          <entry key="JAVA" value="3112" />
+          <entry key="PLAIN_TEXT" value="118" />
           <entry key="XML" value="19" />
         </counts>
       </usages-collector>
@@ -136,11 +124,32 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/util/ReplaceDocx.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="340">
-              <caret line="50" column="46" selection-start-line="50" selection-start-column="46" selection-end-line="50" selection-end-column="46" />
+            <state relative-caret-position="238">
+              <caret line="41" column="26" selection-start-line="41" selection-start-column="26" selection-end-line="41" selection-end-column="26" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$USER_HOME$/Desktop/arquivos/CardAccountDAO.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="238">
+              <caret line="43" column="39" lean-forward="true" selection-end-line="391" />
+              <folding>
+                <element signature="n#!!doc" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$USER_HOME$/Desktop/arquivos/CardDAO.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="340">
+              <caret line="52" lean-forward="true" selection-start-line="52" selection-end-line="52" />
             </state>
           </provider>
         </entry>
@@ -355,7 +364,7 @@
   <component name="PropertiesComponent">
     <property name="SearchEverywhereHistoryKey" value="set&#9;FILE&#9;file://C:/Users/Administrador/.m2/settings.xml&#10;configurat&#9;FILE&#9;jar://C:/Program Files/Java/jdk1.8.0_181/jre/lib/rt.jar!/javax/security/auth/login/Configuration.class&#10;resources&#9;FILE&#9;file://C:/Users/Administrador/Documents/Desenvolvimento/backend/Esc Generator/src/main/resources&#10;sett&#9;FILE&#9;file://C:/Users/Administrador/.m2/settings.xml&#10;settings&#9;FILE&#9;file://C:/Users/Administrador/.m2/settings.xml" />
     <property name="android.sdk.path" value="$USER_HOME$/AppData/Local/Android/Sdk" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1547582269895" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1547583533403" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.0" />
@@ -475,12 +484,18 @@
       <option name="project" value="LOCAL" />
       <updated>1547086323677</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="finalizando troca das key">
+      <created>1547582388938</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1547582388938</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="ToolWindowManager">
     <frame x="-1928" y="-209" width="1936" height="1056" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.18869936" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -519,19 +534,8 @@
     <MESSAGE value="init" />
     <MESSAGE value="adicionando versão" />
     <MESSAGE value="iniciando download do arquivo mocado" />
-    <option name="LAST_COMMIT_MESSAGE" value="iniciando download do arquivo mocado" />
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/util/ReplaceDocx.java</url>
-          <line>51</line>
-          <properties />
-          <option name="timeStamp" value="33" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
+    <MESSAGE value="finalizando troca das key" />
+    <option name="LAST_COMMIT_MESSAGE" value="finalizando troca das key" />
   </component>
   <component name="antWorkspaceConfiguration">
     <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />
@@ -539,6 +543,11 @@
   </component>
   <component name="debuggerHistoryManager">
     <expressions id="evaluateExpression">
+      <expression>
+        <expression-string>keys</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
       <expression>
         <expression-string>r.setText();</expression-string>
         <language-id>JAVA</language-id>
@@ -551,11 +560,6 @@
       </expression>
       <expression>
         <expression-string>r</expression-string>
-        <language-id>JAVA</language-id>
-        <evaluation-mode>EXPRESSION</evaluation-mode>
-      </expression>
-      <expression>
-        <expression-string>keys</expression-string>
         <language-id>JAVA</language-id>
         <evaluation-mode>EXPRESSION</evaluation-mode>
       </expression>
@@ -581,11 +585,6 @@
       </expression>
       <expression>
         <expression-string>r.getParagraph().getRuns()</expression-string>
-        <language-id>JAVA</language-id>
-        <evaluation-mode>EXPRESSION</evaluation-mode>
-      </expression>
-      <expression>
-        <expression-string>r.getParagraph()</expression-string>
         <language-id>JAVA</language-id>
         <evaluation-mode>EXPRESSION</evaluation-mode>
       </expression>
@@ -782,10 +781,41 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/util/ReplaceDocx.java">
+    <entry file="file://$USER_HOME$/Desktop/arquivos/Card.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret selection-end-line="1254" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Desktop/arquivos/CardAccount.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="16" lean-forward="true" selection-start-line="16" selection-end-line="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Desktop/arquivos/CardAccountDAO.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="43" column="39" lean-forward="true" selection-end-line="391" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Desktop/arquivos/CardDAO.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="340">
-          <caret line="50" column="46" selection-start-line="50" selection-start-column="46" selection-end-line="50" selection-end-column="46" />
+          <caret line="52" lean-forward="true" selection-start-line="52" selection-end-line="52" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/util/ReplaceDocx.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="41" column="26" selection-start-line="41" selection-start-column="26" selection-end-line="41" selection-end-column="26" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>

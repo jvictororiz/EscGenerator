@@ -46,9 +46,9 @@ public class ReplaceDocx {
                     for (XWPFParagraph p : cell.getParagraphs()) {
                         for (XWPFRun r : p.getRuns()) {
                             String text = r.getText(0);
-                            if (text != null && text.contains("key") && !keys.isEmpty() && keys.get(0).getKey().equals(TypeValue.TIPO_TABLE)) {
+                            if (text != null && text.toLowerCase().contains("key") && !keys.isEmpty() && keys.get(0).getKey().equals(TypeValue.TIPO_TABLE)) {
                                 text = keys.get(0).getValue();
-                                r.setText(text);
+                                r.setText(text, 0);
                                 keys.remove(0);
                             }
                         }
