@@ -1,4 +1,4 @@
-util\ReplaceDocx.class
-rest\EscDto.class
 rest\EscRestService.class
 rest\entity\TypeValue.class
+util\ReplaceDocx.class
+rest\EscDto.class

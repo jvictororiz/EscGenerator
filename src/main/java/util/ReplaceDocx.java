@@ -47,8 +47,8 @@ public class ReplaceDocx {
                         for (XWPFRun r : p.getRuns()) {
                             String text = r.getText(0);
                             if (text != null && text.contains("key") && !keys.isEmpty() && keys.get(0).getKey().equals(TypeValue.TIPO_TABLE)) {
-                                text = text.replace("key", keys.get(0).getValue());
-                                r.setText(text, 0);
+                                text = keys.get(0).getValue();
+                                r.setText(text);
                                 keys.remove(0);
                             }
                         }

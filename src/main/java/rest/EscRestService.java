@@ -35,10 +35,19 @@ public class EscRestService {
     @RequestMapping(method = RequestMethod.POST)
     public HttpServletResponse downloadFile(HttpServletResponse response, @RequestBody EscDto escDto) throws Exception {
         List<TypeValue> keys = new ArrayList<>();
-        keys.add(new TypeValue(escDto.getTitle()));
-        keys.add(new TypeValue(escDto.getModule()));
-        keys.add(new TypeValue(escDto.getObjctive()));
-        keys.add(new TypeValue(TypeValue.TIPO_TEXT, escDto.getConteudo()));
+        keys.add(new TypeValue(escDto.getDate()));
+        keys.add(new TypeValue(escDto.getNameClass()));
+        keys.add(new TypeValue(escDto.getKeyAuthor()));
+        keys.add(new TypeValue(escDto.getModuleOrApplication()));
+        keys.add(new TypeValue(escDto.getObjective()));
+        keys.add(new TypeValue(escDto.getSystem()));
+        keys.add(new TypeValue(escDto.getLanguage()));
+        keys.add(new TypeValue(escDto.getKeyAuthor()));
+        keys.add(new TypeValue(escDto.getNameDeveloper()));
+        keys.add(new TypeValue(escDto.getFuncionality()));
+        keys.add(new TypeValue(escDto.getDescriptionFuncionality()));
+        keys.add(new TypeValue(TypeValue.TIPO_TEXT, escDto.getSpecificationComponent()));
+
         XWPFDocument xwpfDocument = ReplaceDocx.donwloadEscCompleted(keys);
         OutputStream os = response.getOutputStream();
         if (xwpfDocument != null) {
