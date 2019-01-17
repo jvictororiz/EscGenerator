@@ -10,7 +10,7 @@ public class Main {
 
     public static void main(String[] args) throws Exception {
         SpringApplication app = new SpringApplication(Main.class);
-        app.setDefaultProperties(Collections.<String, Object>singletonMap("server.port", "8081"));
+        app.setDefaultProperties(Collections.<String, Object>singletonMap("server.port", "8080"));
         app.run(args);
     }
 

@@ -1,11 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="b8cbee17-3b03-4fe9-9781-9022f846ad77" name="Default Changelist" comment="finalizando troca das key">
+    <list default="true" id="b8cbee17-3b03-4fe9-9781-9022f846ad77" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/rest/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/rest/Main.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/util/ReplaceDocx.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/util/ReplaceDocx.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/resources/testeEsc.docx" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/testeEsc.docx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/~$steEsc.docx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/testeEsc.docx" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/testeEsc.docx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/util/ReplaceDocx.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/util/ReplaceDocx.class" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -69,39 +70,39 @@
     <session id="521555698">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="3" />
+          <entry key="project.closed" value="4" />
           <entry key="project.open.time.0" value="2" />
           <entry key="project.open.time.12" value="1" />
-          <entry key="project.open.time.2" value="2" />
-          <entry key="project.opened" value="5" />
+          <entry key="project.open.time.2" value="3" />
+          <entry key="project.opened" value="6" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="class" value="13" />
+          <entry key="class" value="14" />
           <entry key="java" value="16" />
-          <entry key="xml" value="3" />
+          <entry key="xml" value="6" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="CLASS" value="13" />
+          <entry key="CLASS" value="14" />
           <entry key="JAVA" value="16" />
-          <entry key="XML" value="3" />
+          <entry key="XML" value="6" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="dummy" value="14" />
-          <entry key="java" value="3112" />
-          <entry key="txt" value="104" />
+          <entry key="java" value="3333" />
+          <entry key="txt" value="133" />
           <entry key="xml" value="19" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="3112" />
-          <entry key="PLAIN_TEXT" value="118" />
+          <entry key="JAVA" value="3333" />
+          <entry key="PLAIN_TEXT" value="147" />
           <entry key="XML" value="19" />
         </counts>
       </usages-collector>
@@ -124,8 +125,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/util/ReplaceDocx.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="238">
-              <caret line="41" column="26" selection-start-line="41" selection-start-column="26" selection-end-line="41" selection-end-column="26" />
+            <state relative-caret-position="261">
+              <caret line="82" column="45" lean-forward="true" selection-start-line="82" selection-start-column="45" selection-end-line="82" selection-end-column="45" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -134,22 +135,23 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$USER_HOME$/Desktop/arquivos/CardAccountDAO.java">
+        <entry file="jar://$MAVEN_REPOSITORY$/org/apache/poi/poi-ooxml/3.7-beta3/poi-ooxml-3.7-beta3.jar!/org/apache/poi/xwpf/usermodel/UnderlinePatterns.class">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="238">
-              <caret line="43" column="39" lean-forward="true" selection-end-line="391" />
+            <state relative-caret-position="320">
+              <caret line="33" column="12" selection-start-line="33" selection-start-column="12" selection-end-line="33" selection-end-column="12" />
               <folding>
-                <element signature="n#!!doc" expanded="true" />
+                <element signature="e#702#703#0" expanded="true" />
+                <element signature="e#734#735#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$USER_HOME$/Desktop/arquivos/CardDAO.java">
+        <entry file="file://$USER_HOME$/.m2/settings.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="340">
-              <caret line="52" lean-forward="true" selection-start-line="52" selection-end-line="52" />
+            <state relative-caret-position="607">
+              <caret line="92" column="37" lean-forward="true" selection-start-line="92" selection-start-column="37" selection-end-line="92" selection-end-column="37" />
             </state>
           </provider>
         </entry>
@@ -166,17 +168,13 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/rest/EscDto.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="918">
+            <state relative-caret-position="850">
               <caret line="75" column="21" selection-start-line="75" selection-start-column="21" selection-end-line="75" selection-end-column="21" />
               <folding>
                 <element signature="e#480#481#0" expanded="true" />
                 <element signature="e#507#508#0" expanded="true" />
                 <element signature="e#547#548#0" expanded="true" />
                 <element signature="e#579#580#0" expanded="true" />
-                <element signature="e#677#678#0" expanded="true" />
-                <element signature="e#715#716#0" expanded="true" />
-                <element signature="e#1448#1449#0" expanded="true" />
-                <element signature="e#1477#1478#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -194,8 +192,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/rest/Main.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="119">
-              <caret line="7" column="17" selection-start-line="7" selection-start-column="17" selection-end-line="7" selection-end-column="17" />
+            <state relative-caret-position="170">
+              <caret line="10" column="47" selection-start-line="10" selection-start-column="47" selection-end-line="10" selection-end-column="47" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#385#401#0" expanded="true" />
@@ -230,6 +228,7 @@
       <find>get</find>
       <find>Application</find>
       <find>server.port</find>
+      <find>intranet</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -247,9 +246,9 @@
         <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/src/main/java/Main.java" />
         <option value="$PROJECT_DIR$/src/main/java/rest/EscDto.java" />
-        <option value="$USER_HOME$/.m2/settings.xml" />
-        <option value="$PROJECT_DIR$/src/main/java/rest/Main.java" />
         <option value="$PROJECT_DIR$/src/main/java/rest/EscRestService.java" />
+        <option value="$PROJECT_DIR$/src/main/java/rest/Main.java" />
+        <option value="$USER_HOME$/.m2/settings.xml" />
         <option value="$PROJECT_DIR$/src/main/java/util/ReplaceDocx.java" />
       </list>
     </option>
@@ -292,6 +291,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -342,7 +342,6 @@
         </subPane>
       </pane>
       <pane id="PackagesPane" />
-      <pane id="Scope" />
       <pane id="AndroidView">
         <subPane>
           <expand>
@@ -362,9 +361,9 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="SearchEverywhereHistoryKey" value="set&#9;FILE&#9;file://C:/Users/Administrador/.m2/settings.xml&#10;configurat&#9;FILE&#9;jar://C:/Program Files/Java/jdk1.8.0_181/jre/lib/rt.jar!/javax/security/auth/login/Configuration.class&#10;resources&#9;FILE&#9;file://C:/Users/Administrador/Documents/Desenvolvimento/backend/Esc Generator/src/main/resources&#10;sett&#9;FILE&#9;file://C:/Users/Administrador/.m2/settings.xml&#10;settings&#9;FILE&#9;file://C:/Users/Administrador/.m2/settings.xml" />
+    <property name="SearchEverywhereHistoryKey" value="setting&#9;FILE&#9;file://C:/Users/Administrador/.m2/settings.xml&#10;sett&#9;FILE&#9;file://C:/Users/Administrador/.m2/settings.xml&#10;setti&#9;FILE&#9;file://C:/Users/Administrador/.m2/settings.xml&#10;set&#9;FILE&#9;file://C:/Users/Administrador/.m2/settings.xml&#10;configurat&#9;FILE&#9;jar://C:/Program Files/Java/jdk1.8.0_181/jre/lib/rt.jar!/javax/security/auth/login/Configuration.class&#10;resources&#9;FILE&#9;file://C:/Users/Administrador/Documents/Desenvolvimento/backend/Esc Generator/src/main/resources&#10;settings&#9;FILE&#9;file://C:/Users/Administrador/.m2/settings.xml" />
     <property name="android.sdk.path" value="$USER_HOME$/AppData/Local/Android/Sdk" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1547583533403" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1547738825770" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.0" />
@@ -491,13 +490,21 @@
       <option name="project" value="LOCAL" />
       <updated>1547582388938</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="corrigindo erro de autor">
+      <created>1547583570947</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1547583570947</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="ToolWindowManager">
     <frame x="-1928" y="-209" width="1936" height="1056" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.18869936" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.1913646" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -506,13 +513,13 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.3114572" />
-      <window_info anchor="bottom" id="Debug" order="3" visible="true" weight="0.39822024" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.5272525" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.6095662" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="TunnelliJ" order="7" weight="0.35817575" />
-      <window_info anchor="bottom" id="Terminal" order="8" weight="0.32703003" />
+      <window_info anchor="bottom" id="TunnelliJ" order="7" weight="0.35775128" />
+      <window_info anchor="bottom" id="Terminal" order="8" weight="0.3253833" />
       <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" weight="0.32879046" />
       <window_info anchor="bottom" id="Version Control" order="10" show_stripe_button="false" />
       <window_info anchor="bottom" id="Messages" order="11" weight="0.32814237" />
@@ -523,7 +530,7 @@
       <window_info anchor="right" id="Capture Analysis" order="4" />
       <window_info anchor="right" id="Theme Preview" order="5" />
       <window_info anchor="right" id="Palette&#9;" order="6" />
-      <window_info anchor="right" id="Maven Projects" order="7" visible="true" weight="0.19029851" />
+      <window_info anchor="right" id="Maven Projects" order="7" weight="0.2700454" />
       <window_info anchor="right" id="Coverage" order="8" side_tool="true" weight="0.32980332" />
     </layout>
   </component>
@@ -535,7 +542,20 @@
     <MESSAGE value="adicionando versão" />
     <MESSAGE value="iniciando download do arquivo mocado" />
     <MESSAGE value="finalizando troca das key" />
-    <option name="LAST_COMMIT_MESSAGE" value="finalizando troca das key" />
+    <MESSAGE value="corrigindo erro de autor" />
+    <option name="LAST_COMMIT_MESSAGE" value="corrigindo erro de autor" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/util/ReplaceDocx.java</url>
+          <line>50</line>
+          <properties />
+          <option name="timeStamp" value="7" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
   <component name="antWorkspaceConfiguration">
     <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />
@@ -549,12 +569,12 @@
         <evaluation-mode>EXPRESSION</evaluation-mode>
       </expression>
       <expression>
-        <expression-string>r.setText();</expression-string>
+        <expression-string>r.getText(0)</expression-string>
         <language-id>JAVA</language-id>
         <evaluation-mode>EXPRESSION</evaluation-mode>
       </expression>
       <expression>
-        <expression-string>r.getText(0)</expression-string>
+        <expression-string>r.setText();</expression-string>
         <language-id>JAVA</language-id>
         <evaluation-mode>EXPRESSION</evaluation-mode>
       </expression>
@@ -678,82 +698,14 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="15" column="13" selection-start-line="15" selection-start-column="13" selection-end-line="15" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/rest/entity/TypeValue.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="15" column="26" selection-start-line="15" selection-start-column="26" selection-end-line="15" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/rest/EscDto.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="918">
-          <caret line="75" column="21" selection-start-line="75" selection-start-column="21" selection-end-line="75" selection-end-column="21" />
-          <folding>
-            <element signature="e#480#481#0" expanded="true" />
-            <element signature="e#507#508#0" expanded="true" />
-            <element signature="e#547#548#0" expanded="true" />
-            <element signature="e#579#580#0" expanded="true" />
-            <element signature="e#677#678#0" expanded="true" />
-            <element signature="e#715#716#0" expanded="true" />
-            <element signature="e#1448#1449#0" expanded="true" />
-            <element signature="e#1477#1478#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/TestGeneratorFile.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="391">
-          <caret line="23" lean-forward="true" selection-start-line="23" selection-end-line="23" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/TestGeneratorFile.java" />
     <entry file="jar://C:/Program Files/Java/jdk1.8.0_181/jre/lib/rt.jar!/javax/security/auth/login/Configuration.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <folding>
-            <element signature="e#0#7177#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/.m2/settings.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="426">
-          <caret line="91" column="22" selection-start-line="91" selection-start-column="22" selection-end-line="91" selection-end-column="22" />
-        </state>
-      </provider>
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="jar://C:/Program Files/Java/jdk1.8.0_181/src.zip!/java/util/Collections.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="198">
           <caret line="4852" column="33" selection-start-line="4852" selection-start-column="33" selection-end-line="4852" selection-end-column="33" />
-          <folding>
-            <element signature="e#188769#188770#0" expanded="true" />
-            <element signature="e#188822#188823#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/rest/Main.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="7" column="17" selection-start-line="7" selection-start-column="17" selection-end-line="7" selection-end-column="17" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#385#401#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -768,16 +720,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="145">
           <caret line="116" column="44" lean-forward="true" selection-start-line="116" selection-start-column="44" selection-end-line="116" selection-end-column="44" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/rest/EscRestService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="137">
-          <caret line="39" selection-start-line="39" selection-end-line="39" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -799,9 +741,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="238">
           <caret line="43" column="39" lean-forward="true" selection-end-line="391" />
-          <folding>
-            <element signature="n#!!doc" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -812,10 +751,76 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/rest/entity/TypeValue.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="15" column="26" selection-start-line="15" selection-start-column="26" selection-end-line="15" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/rest/EscDto.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="850">
+          <caret line="75" column="21" selection-start-line="75" selection-start-column="21" selection-end-line="75" selection-end-column="21" />
+          <folding>
+            <element signature="e#480#481#0" expanded="true" />
+            <element signature="e#507#508#0" expanded="true" />
+            <element signature="e#547#548#0" expanded="true" />
+            <element signature="e#579#580#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="15" column="13" selection-start-line="15" selection-start-column="13" selection-end-line="15" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/rest/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="10" column="47" selection-start-line="10" selection-start-column="47" selection-end-line="10" selection-end-column="47" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#385#401#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/.m2/settings.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="607">
+          <caret line="92" column="37" lean-forward="true" selection-start-line="92" selection-start-column="37" selection-end-line="92" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/rest/EscRestService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="137">
+          <caret line="39" selection-start-line="39" selection-end-line="39" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/poi/poi-ooxml/3.7-beta3/poi-ooxml-3.7-beta3.jar!/org/apache/poi/xwpf/usermodel/UnderlinePatterns.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="320">
+          <caret line="33" column="12" selection-start-line="33" selection-start-column="12" selection-end-line="33" selection-end-column="12" />
+          <folding>
+            <element signature="e#702#703#0" expanded="true" />
+            <element signature="e#734#735#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/util/ReplaceDocx.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="41" column="26" selection-start-line="41" selection-start-column="26" selection-end-line="41" selection-end-column="26" />
+        <state relative-caret-position="261">
+          <caret line="82" column="45" lean-forward="true" selection-start-line="82" selection-start-column="45" selection-end-line="82" selection-end-column="45" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>

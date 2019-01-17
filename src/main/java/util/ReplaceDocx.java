@@ -47,8 +47,18 @@ public class ReplaceDocx {
                         for (XWPFRun r : p.getRuns()) {
                             String text = r.getText(0);
                             if (text != null && text.toLowerCase().contains("key") && !keys.isEmpty() && keys.get(0).getKey().equals(TypeValue.TIPO_TABLE)) {
-                                text = keys.get(0).getValue();
-                                r.setText(text, 0);
+                                String value = keys.get(0).getValue();
+                                if (value.contains("\n")) {
+                                    String[] lines = value.split("\n");
+                                    r.setText(lines[0], 0);
+                                    for (int i = 1; i < lines.length; i++) {
+                                        r.addBreak();
+                                        r.setText(lines[i]);
+                                    }
+                                } else {
+                                    r.setText(value, 0);
+                                }
+
                                 keys.remove(0);
                             }
                         }
@@ -64,9 +74,19 @@ public class ReplaceDocx {
             for (XWPFParagraph p : pp.getPart().getParagraphs()) {
                 for (XWPFRun a : p.getRuns()) {
                     String text = a.getText(0);
-                    if (text != null && text.contains("key") && !keys.isEmpty() && keys.get(0).getKey().equals(TypeValue.TIPO_TEXT)) {
-                        text = text.replace("key", keys.get(0).getValue());
-                        a.setText(text, 0);
+                    if (text != null && text.toLowerCase().contains("key") && !keys.isEmpty() && keys.get(0).getKey().equals(TypeValue.TIPO_TEXT)) {
+                        String value = keys.get(0).getValue();
+                        if (value.contains("\n")) {
+                            String[] lines = value.split("\n");
+                            a.setText(lines[0], 0);
+                            for (int i = 1; i < lines.length; i++) {
+                                a.addBreak();
+                                a.setText(lines[i]);
+                            }
+                        } else {
+                            a.setText(value, 0);
+                        }
+
                         keys.remove(0);
                     }
                 }
